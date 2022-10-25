@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.AppBar {
+  height: 82px;
+  width: 375px;
+  border-radius: 0;
+  background: #3c3a39;
+}
+
+.ToolBar {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: 48px;
+  width: 375px;
+  left: 0;
+  top: 44px;
+  position: absolute;
+  right: 0;
+}
+
+nav {
+  height: 44px;
+  width: 101px;
+  right: 44px;
+  border-radius: 0;
+  padding: 10px 12px 10px 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  top: calc(50% - 44px / 2);
+}
+
+nav img {
+  text-align: end;
+  margin-left: 84px;
+}
+
+.Logo {
+  height: 44px;
+  width: 101px;
+  left: 12px;
+  border-radius: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  top: calc(50% - 44px / 2);
+}
+
+.Logo a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 34px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 5px;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.headline {
+  width: 375px;
+  height: 590px;
+  background: #1c1a19;
+  background-image: url("images/Illustration.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: 230px;
+}
+
+.content {
+  padding-top: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+.PrimaryText {
+  width: 327px;
+  height: 124px;
+  margin-bottom: 10px;
+}
+
+.PrimaryText h1 {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  color: #ff6b00;
+  letter-spacing: 0.37px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.SupportingText {
+  width: 327px;
+  height: 27px;
+  margin: 20px 0;
+}
+
+.SupportingText h2 {
+  justify-content: center;
+  align-items: center;
+  width: 327px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  color: #fff;
+}
+
+.discription {
+  width: 327px;
+  height: 123px;
+  margin-bottom: 20px;
+}
+
+.discription p {
+  width: 327px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.SocialMedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-decoration: none;
+  gap: 20px;
+  width: 200px;
+  list-style: none;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+ul .SocialMedia {
+  width: 200px;
+  height: 40px;
+}
+
+.SocialMedia img {
+  height: 24px;
+  width: 24px;
+  border-radius: 0;
+}
