@@ -81,6 +81,9 @@ nav img {
   background-repeat: no-repeat;
   background-position: right;
   background-position-y: 230px;
+  margin-bottom: 0;
+  margin-left: 0;
+  left: 0;
 }
 
 .content {
@@ -89,6 +92,7 @@ nav img {
   flex-direction: column;
   align-items: flex-start;
   margin-left: 20px;
+  margin-bottom: 0;
 }
 
 .PrimaryText {
@@ -165,4 +169,501 @@ ul .SocialMedia {
   height: 24px;
   width: 24px;
   border-radius: 0;
+}
+
+.works {
+  width: 375px;
+  background-color: #362315;
+}
+
+.RecentWorks {
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+  height: 107px;
+  padding-top: 180px;
+  justify-content: center;
+  align-items: center;
+}
+
+.RecentWorks h2 {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  margin-left: 24px;
+}
+
+#line {
+  width: 327px;
+  padding: 0 24px;
+  border: 1px solid #212121;
+  align-items: center;
+  justify-content: center;
+  margin-left: 24px;
+}
+
+.MultiPostStories {
+  display: flex;
+  flex-direction: column;
+  margin-top: 160px;
+  justify-content: center;
+  align-items: center;
+  width: 375px;
+
+  /* background-color: #ff6b00; */
+}
+
+.MultiPostStories img {
+  width: 327px;
+  height: 237px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.MultiPostStories h3 {
+  width: 300px;
+  height: 26px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+
+  /* font-weight: 400; */
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+  justify-content: center;
+  color: #091e42;
+  margin-left: 15px;
+}
+
+.MultiPostStories p {
+  padding: 0 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+  margin: 0;
+}
+
+.languageBoxes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding-left: 0;
+  margin: 5px;
+  margin-bottom: 0;
+  margin-top: 0;
+  list-style: none;
+  margin-left: 15px;
+}
+
+.work1 p {
+  width: 295px;
+  height: 87px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 10px 0;
+  padding-left: 16px;
+  color: #fff;
+  flex: none;
+  flex-grow: 0;
+}
+
+.about p {
+  width: 327px;
+  height: 100px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  /* margin: 10px 0px; */
+  color: #f4f5f7;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.languageBoxes .box p {
+  box-sizing: border-box;
+  border: 1px solid #8993a4;
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+button {
+  border: #f4f5f7;
+  padding: 5px;
+}
+
+.MultiPostStories button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px;
+  width: 124px;
+  height: 48px;
+  background: #ff6b00;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  margin-top: 10px;
+  align-self: flex-start;
+  border: none;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.work1 {
+  background-image: url("/images/BG1.png");
+  background-repeat: no-repeat;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin: 0 24px;
+}
+
+.work1 h4 {
+  width: 295px;
+  height: 81px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 50px;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  flex: none;
+  flex-grow: 0;
+}
+
+.category {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+  padding-right: 75px;
+  padding-left: 16px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.language1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 8px;
+  width: 56px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.language2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 10px;
+  width: 95px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.language3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 8px;
+  width: 61px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.work1 button {
+  width: 327px;
+  height: 48px;
+  background: #ff6b00;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.AboutMe {
+  position: absolute;
+  width: 375px;
+  height: 1930px;
+  margin-bottom: 10px;
+  left: 0;
+  top: 4015px;
+  background: #1c1a19;
+  background-image: url("/images/illustration-about-me-mobile.png");
+  background-repeat: no-repeat;
+  background-position-x: 215px;
+  background-position-y: 495px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 24px;
+}
+
+.about h1 {
+  width: 327px;
+  height: 59px;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  margin-bottom: 10;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.about button {
+  text-align: center;
+  padding: 8 25px;
+  height: 48px;
+  background: #ff6b00;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin-top: 20px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+
+.myskills {
+  margin-bottom: 90px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 24px;
+  gap: 24px;
+  position: absolute;
+  width: 300px;
+  height: 1241.46px;
+  top: 4797px;
+  border-top: 1px solid white;
+}
+
+.languageHeading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 12px;
+  width: 200px;
+  height: 41.46px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.kite {
+  width: 18px;
+  height: 18px;
+  background: #ff6b00;
+  transform: rotate(-45deg);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.languageHeading h1 {
+  font-family: "InaiMathi", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.LanguageSkill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 12px;
+  gap: 8px;
+}
+
+.LanguageSkill li {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.frameworkheading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 12px;
+  width: 220px;
+  height: 40px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frameworkheading img {
+  width: 18px;
+  height: 18px;
+  background: #ff6b00;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frameworkheading h1 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frameworkSkill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 12px;
+  gap: 8px;
+}
+
+.frameworkSkill li {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.skillotherheading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 12px;
+  width: 145px;
+  height: 40px;
+}
+
+.skillotherheading img {
+  width: 18px;
+  height: 18px;
+  background: #ff6b00;
+  border-radius: 150px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.skillotherheading h1 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  order: 1;
+  flex-grow: 0;
+}
+
+.skilOther {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 12px;
+  gap: 8px;
+  padding-bottom: 10px;
+}
+
+.skilOther li {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+button:disabled {
+  background: #f4f1f0;
+}
+
+button:enabled {
+  background: #f55800;
+}
+
+button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #ff6b00;
+}
+
+.MultiPostStories button:hover {
+  background: #f55800;
+  color: #f4f5f7;
 }
