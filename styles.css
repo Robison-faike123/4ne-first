@@ -10,9 +10,12 @@
 
 .AppBar {
   height: 82px;
-  width: 375px;
+  width: 369px;
   border-radius: 0;
+
+  /* position: absolute; */
   background: #3c3a39;
+  left: 0;
 }
 
 .ToolBar {
@@ -81,6 +84,7 @@ nav img {
   background-repeat: no-repeat;
   background-position: right;
   background-position-y: 230px;
+  position: absolute;
   margin-bottom: 0;
   margin-left: 0;
   left: 0;
@@ -181,7 +185,7 @@ ul .SocialMedia {
   flex-direction: column;
   width: 327px;
   height: 107px;
-  padding-top: 180px;
+  padding-top: 750px;
   justify-content: center;
   align-items: center;
 }
@@ -243,8 +247,9 @@ ul .SocialMedia {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 28px;
+  padding-bottom: 5px;
   color: #091e42;
   margin: 0;
 }
