@@ -8,12 +8,15 @@
   box-sizing: border-box;
 }
 
+.profile {
+  position: absolute;
+  left: 0;
+}
+
 .AppBar {
   height: 82px;
-  width: 369px;
+  width: 375px;
   border-radius: 0;
-
-  /* position: absolute; */
   background: #3c3a39;
   left: 0;
 }
@@ -56,7 +59,8 @@ nav img {
   display: flex;
   flex-direction: row;
   align-items: center;
-  position: absolute;
+
+  /* position: absolute; */
   top: calc(50% - 44px / 2);
 }
 
@@ -69,7 +73,7 @@ nav img {
   display: flex;
   align-items: center;
   text-align: center;
-  margin-left: 5px;
+  margin-left: 20px;
   color: #fff;
   flex: none;
   order: 0;
@@ -78,13 +82,14 @@ nav img {
 
 .headline {
   width: 375px;
-  height: 590px;
+  height: 600px;
   background: #1c1a19;
   background-image: url("images/Illustration.png");
   background-repeat: no-repeat;
   background-position: right;
   background-position-y: 230px;
-  position: absolute;
+
+  /* position: absolute; */
   margin-bottom: 0;
   margin-left: 0;
   left: 0;
@@ -102,7 +107,7 @@ nav img {
 .PrimaryText {
   width: 327px;
   height: 124px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .PrimaryText h1 {
@@ -185,7 +190,7 @@ ul .SocialMedia {
   flex-direction: column;
   width: 327px;
   height: 107px;
-  padding-top: 750px;
+  padding-top: 800px;
   justify-content: center;
   align-items: center;
 }
@@ -671,4 +676,187 @@ button:hover {
 .MultiPostStories button:hover {
   background: #f55800;
   color: #f4f5f7;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 375px;
+  left: 0;
+  top: 5950px;
+  border-bottom: 1px solid white;
+}
+
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.contact-p {
+  margin-top: 120px;
+  margin-left: 20px;
+  align-items: center;
+  width: 327px;
+  height: 216px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  text-align: center;
+}
+
+.inputText {
+  width: 327px;
+  height: 48px;
+  margin-left: 15px;
+  margin-top: 5px;
+  display: block;
+  justify-content: start;
+  text-align: start;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+.input_t {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+  border: 0;
+  margin-top: 10px;
+}
+
+.text-area {
+  margin-top: 20px;
+  margin-left: 15px;
+  background: #fbf8f7;
+  color: #3c3a39;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  border: none;
+  padding: 6px;
+  font-family: 'Inter'sans-serif;
+}
+
+.inputTextarea {
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 90px;
+  width: 300px;
+  border-radius: 0;
+}
+
+#comment {
+  width: 300px;
+  height: 90px;
+}
+
+.input_t:hover {
+  text-decoration: underline;
+}
+
+.text-area:hover {
+  border: 0.23rem solid blueviolet;
+}
+
+.contact-button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.form-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 190px;
+  margin-left: 15px;
+  flex: none;
+  background: #f4f1f0;
+  order: 0;
+  flex-grow: 0;
+}
+
+.btn-touch {
+  margin-top: 3.5rem;
+  background: #ff6b00;
+  width: 131px;
+  height: 48px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  border: #ff6b00;
+  cursor: pointer;
+}
+
+.btn-touch:hover {
+  box-sizing: border-box;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+  text-decoration: underline blueviolet;
+}
+
+.btn-touch:active {
+  background: #e05304;
+  color: #f4f1f0;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.btn-touch:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
+}
+
+.cross {
+  border: 1px solid #dfe1e6;
+  margin-top: 100px;
+  align-self: stretch;
+  background: #dfe1e6;
+}
+
+.cross:hover {
+  background: #172b4d;
+  border: 1px solid #172b4d;
+}
+
+.contact-social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.contact-social {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.line {
+  position: absolute;
+  width: 134px;
+  height: 5px;
+  left: calc(50% - 134px / 2 - 0.5px);
+  bottom: 20px;
+  background: #0d151e;
+  border-radius: 10px;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 20px;
 }
