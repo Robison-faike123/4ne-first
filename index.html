@@ -11,19 +11,27 @@
 <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
   </head>
   <body>
-    <section class="profile">
+    <header>
       <div class="AppBar">
-        <hea der class="ToolBar">
+        <div class="ToolBar">
           <nav>
             <img src="images/NormalButton.png" alt="" class="NormalButton" />
           </nav>
           <div class="Logo">
             <a href="#">Faishar Faike</a>
           </div>
-        </hea>
+          <ul class="nav-menu">
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#About">About</a></li>
+       </ul>
+        </div>
       </div>
-      <section class="headline">
+    </header>
+      <section >
+      <div class="headline">
         <div class="content">
+          <div class="split">
           <div class="PrimaryText">
             <h1>Hey There. I'm faishar</h1>
           </div>
@@ -37,6 +45,7 @@
               a project you need coded, don't hestiate to contact me.
             </p>
           </div>
+        </div>
           <ul class="SocialMedia">
             <li>
               <a href="https://github.com/Robison-faike123">
@@ -65,16 +74,19 @@
             </li>
           </ul>
         </div>
+        <div class="image-headline"></div>
+      </div>
       </section>
-    </section>
       
-      <section class="Works">
+      <section class="trial-work">
+       <div class="Works">
         <div class="RecentWorks">
           <h2>My Recent Works</h2>
            <hr id="line">
         </div>
         <div class="MultiPostStories">
           <img class="MyResentWorkImg1" src="/images/MyRecentWorkImg1.png" alt=""/>
+          <div class="split2">
           <h3>Multi-Post Stories</h3>
           <p>
             A daily selection of privately personalized reads; no accounts or
@@ -97,8 +109,10 @@
           </ul>
           <button>See Project</button>
         </div>
-      
+        </div>
+      <div class="cards">
         <div class="work1" id="w1">
+          <div id="text">
           <h4>Profesional Art Printing Data</h4>
           <p>
             A daily selection of privately personalized reads; no accounts or
@@ -109,25 +123,29 @@
             <li class="language2">bootstrap</li>
             <li class="language3">Ruby</li>
           </ul>
-          <button>See Project</button>
+          <button class="card-button">See Project</button>
+        </div>
         </div>
       
         <div class="work1" id="w2">
-          <h4>Profesional Art Printing Data</h4>
+          <h4 class="phone">Profesional Art Printing Data</h4>
+          <h4 class="desktop">Data Dashboard Healthcare</h4>
           <p>
             A daily selection of privately personalized reads; no accounts or
             sign-ups required. has been the industry's standard
           </p>
+          
           <ul class="category">
             <li class="language1">html</li>
             <li class="language2">bootstrap</li>
             <li class="language3">Ruby</li>
           </ul>
-          <button>See Project</button>
+          <button class="card-button">See Project</button>
         </div>
       
         <div class="work1" id="w3">
-          <h4>Profesional Art Printing Data</h4>
+          <h4 class="phone">Profesional Art Printing Data</h4>
+          <h4 class="desktop">Website Protfolio </h4>
           <p>
             A daily selection of privately personalized reads; no accounts or
             sign-ups required. has been the industry's standard
@@ -137,7 +155,7 @@
             <li class="language2">bootstrap</li>
             <li class="language3">Ruby</li>
           </ul>
-          <button>See Project</button>
+          <button class="card-button">See Project</button>
         </div>
       
         <div class="work1" id="w4">
@@ -151,11 +169,12 @@
             <li class="language2">bootstrap</li>
             <li class="language3">Ruby</li>
           </ul>
-          <button>See Project</button>
+          <button class="card-button">See Project</button>
         </div>
       
         <div class="work1" id="w5">
-          <h4>Profesional Art Printing Data</h4>
+          <h4 class="phone">Profesional Art Printing Data</h4>
+          <!-- <h4 class="desktop">Data Dashboard Healthcare</h4> -->
           <p>
             A daily selection of privately personalized reads; no accounts or
             sign-ups required. has been the industry's standard
@@ -165,11 +184,12 @@
             <li class="language2">bootstrap</li>
             <li class="language3">Ruby</li>
           </ul>
-          <button>See Project</button>
+          <button class="card-button">See Project</button>
         </div>
       
         <div class="work1" id="w6">
-          <h4>Profesional Art Printing Data</h4>
+          <h4 class="phone">Profesional Art Printing Data</h4>
+          <!-- <h4 class="desktop">Website Protfolio </h4> -->
           <p>
             A daily selection of privately personalized reads; no accounts or
             sign-ups required. has been the industry's standard
@@ -179,67 +199,80 @@
             <li class="language2">bootstrap</li>
             <li class="language3">Ruby</li>
           </ul>
-          <button>See Project</button>
+          <button class="card-button">See Project</button>
         </div>
+       </div>
       </section>
-      <section class="AboutMe">
-        <div class="about">
-          <h1>About me</h1>
-          <p>
-            Hello I'm a software developer! I can help you build a product ,
-            feature or website Look through some of my work and experience! If
-            you like what you see and have a project you need coded, don't
-            hestiate to contact me.
-          </p> 
-      
-          <button>Get My Resume</button>
-  
-        </div>
-      </section>
-      <section class="myskills">
-        <div class="skills">
-          <div class="languageHeading">
-            <img src="/images/kite.png" alt="" class="kite" />
-            <h1>Languages</h1>
-          </div>
-          <ul class="LanguageSkill">
-            <li>javascript</li>
-            <li>ruby</li>
-            <li>html</li>
-            <li>css</li>
-          </ul>
-          <div class="frameworkheading">
-            <img src="./images/Rectangle 56.png" alt="" />
-            <h1>frameworks</h1>
-          </div>
-          <ul class="frameworkSkill">
-            <li>Bootstrap</li>
-            <li>Ruby on rails</li>
-            <li>CapyBara</li>
-            <li>Selenium</li>
-            <li>RSPec</li>
-          </ul>
-          <div class="skillotherheading">
-            <img src="/images/circle.png" alt="" />
-            <h1>Skills</h1>
-          </div>
-          <ul class="skilOther">
-            <li>Codekit</li>
-            <li>github</li>
-            <li>Codepen</li>
-            <li>gitlab</li>
-            <li>Terminal</li>
-          </ul>
-        </div>
-      </section>
-      <section class="details">
 
-        <div class="contact-p">
+     <section >
+        <div class="AboutMe">
+          <div id="about-up">
+           <div class="about">
+              <h1>About me</h1>
+               <p>
+                 Hello I'm a software developer! I can help you build a product ,
+                 feature or website Look through some of my work and experience! If
+                 you like what you see and have a project you need coded, don't
+                 hestiate to contact me.
+               </p> 
+                <button>Get My Resume</button>
+             </div>
+             <div id="image-about"></div>
+            </div>
+            <div class="myskills">
+                <div class="skills">
+                    <div id="kite-1">
+                       <div class="languageHeading">
+                        <img src="/images/kite.png" alt="" class="kite" />
+                         <h1>Languages</h1>
+                      </div>
+                          <ul class="LanguageSkill">
+                             <li>javascript</li>
+                             <li>ruby</li>
+                              <li>html</li>
+                              <li>css</li>
+                           </ul>
+                   </div>
+                <div id="rectangle2">
+                      <div class="frameworkheading">
+                        <img src="./images/Rectangle 56.png" alt="" />
+                         <h1>frameworks</h1>
+                      </div>
+                             <ul class="frameworkSkill">
+                                    <li>Bootstrap</li>
+                                    <li>Ruby on rails</li>
+                                     <li>CapyBara</li>
+                                      <li>Selenium</li>
+                                       <li>RSPec</li>
+                              </ul>
+                    </div>
+                    <div id="circle3">
+                        <div class="skillotherheading">
+                            <img src="/images/circle.png" alt="" />
+                            <h1>Skills</h1>
+                       </div>
+                              <ul class="skilOther">
+                                 <li>Codekit</li>
+                                 <li>github</li>
+                                  <li>Codepen</li>
+                                  <li>gitlab</li>
+                                 <li>Terminal</li>
+                                </ul>
+                    </div>           
+                </div>
+             </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="details">
+          <div class="split3">
+            <div class="contact-p">
              <p>
               I'm always interested in hearing about new projects, so if you'd like
               to chat please get in touch.
             </p>
-        </div>
+           </div>
         <form action="https://formspree.io/f/xyyvjvdn" method="POST">
           <div class="ContactForm">
               <div class="inputText">
@@ -271,7 +304,9 @@
                 </div>
             </div>
         </form>
-        <div class="cross"></div>        
+        </div>
+        <div class="cross"></div> 
+        </div>       
       </section>
     <footer>
       <div class="contact-social">
